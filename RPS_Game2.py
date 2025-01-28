@@ -9,12 +9,11 @@ options = [Rock, Paper, Scissors]
 comp_Choice = random.choice(options)
 player_Choice = input("rock, paper, scissors?")
 
-print("3...")
-time.sleep(1)
-print("2...")
-time.sleep(1)
-print("1...")
-time.sleep(1)
+wait = 3
+for i in range(3):
+    print(wait)
+    time.sleep(1)
+    wait -= 1
 print(player_Choice, "vs", comp_Choice["name"])
 time.sleep(1)
 
