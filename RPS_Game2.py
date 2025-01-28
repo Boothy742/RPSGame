@@ -2,8 +2,8 @@ import random
 import time
 
 Rock = {"name": "rock", "rock": "draw", "paper": "win", "scissors": "lose"}
-Paper = {"name": "paper","paper": "draw", "scissors": "win", "rock": "lose"}
-Scissors = {"name": "scissors","scissors": "draw", "rock": "win", "paper": "lose"}
+Paper = {"name": "paper", "paper": "draw", "scissors": "win", "rock": "lose"}
+Scissors = {"name": "scissors", "scissors": "draw", "rock": "win", "paper": "lose"}
 options = [Rock, Paper, Scissors]
 
 comp_Choice = random.choice(options)
