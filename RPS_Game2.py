@@ -14,10 +14,4 @@ for i in range(3):
     time.sleep(1)
 print(player_Choice, "vs", comp_Choice["name"])
 time.sleep(1)
-
-if player_Choice == "rock": 
-    print(comp_Choice["rock"])
-elif player_Choice == "paper": 
-    print(comp_Choice["paper"])
-else: 
-    print(comp_Choice["scissors"])
+print(comp_Choice[player_Choice])
